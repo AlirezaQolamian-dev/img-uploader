@@ -1,10 +1,9 @@
-import { Card } from "@mui/material";
-import Header from "./components/Header";
+import FileUploader from "./components/FileUploader";
 
 export default function Home() {
   return (
     <div>
-      <Header />
+      <FileUploader />
     </div>
   );
 }
